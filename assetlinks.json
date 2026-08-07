@@ -1,0 +1,14 @@
+[
+    {
+        "relation": [
+            "delegate_permission/common.handle_all_urls"
+        ],
+        "target": {
+            "namespace": "pivot.money",
+            "package_name": "com.app.networthtracker",
+            "sha256_cert_fingerprints": [
+                "DD:06:41:7E:AC:2E:AE:C1:F2:E5:8A:8A:66:63:E4:2C:77:03:B7:B9:36:15:52:61:21:16:43:C0:BE:9E:19:2C"
+            ]
+        }
+    }
+]

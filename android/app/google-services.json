@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "823813601514",
+    "project_id": "nwt-app-28415",
+    "storage_bucket": "nwt-app-28415.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:823813601514:android:4a89119dd051d1b0453f93",
+        "android_client_info": {
+          "package_name": "com.app.networthtracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "823813601514-8bh26douaega0t2nhq6e6848s4lv36fn.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.networthtracker",
+            "certificate_hash": "735a230984cc7a356f065f0703d927826ff022cd"
+          }
+        },
+        {
+          "client_id": "823813601514-hqrk7123058qssnilc35tc19o4in5m72.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.app.networthtracker",
+            "certificate_hash": "8eeb9fc95504b4036f2467ea798f6e11178e43e4"
+          }
+        },
+        {
+          "client_id": "823813601514-19opf18hsfd9ebi9agfbdl6jaothmqjq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDSVcrXmNbomQmBdFGduO2rOC-MWuJq6g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "823813601514-19opf18hsfd9ebi9agfbdl6jaothmqjq.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "823813601514-3p4gu65jtjd6seg11u9p042emhaoaa2t.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.app.networthtracker"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

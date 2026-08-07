@@ -1,0 +1,29 @@
+# Windsurf Project Rules
+
+## Project Context
+This is a Flutter mobile application designed for financial growth ("Networth-Tracker").
+- **State Management**: GetX (primary), Provider.
+- **Backend/Services**: Firebase (Auth, Analytics, Crashlytics, Messaging), Supabase (Database), Saafe AA SDK.
+- **UI/UX**: Custom responsive design using `flutter_screenutil`, `animate_do` for animations, and `shimmer` for loading states. 'Poppins' and 'Montserrat' are primary fonts.
+
+## Tech Stack Rules
+- **Flutter**: Use version ^3.7.2. Ensure Dart 3 compatibility.
+- **GetX**: Use `Get.toNamed()` for navigation. Use `GetxController` for business logic. Use `Obx(() => ...)` for reactive UI updates.
+- **ScreenUtil**: ALWAYS use `flutter_screenutil` extensions for sizing: `.w` (width), `.h` (height), `.sp` (fontSize), `.r` (radius).
+    - Example: `Container(width: 50.w, height: 50.h, child: Text("Hi", style: TextStyle(fontSize: 14.sp)))`
+- **Assets**: Reference assets from `assets/` directory. SVG handling via `flutter_svg`.
+
+## Coding Standards
+- **Immutability**: Prefer `final` for variables and `const` for constructors where possible.
+- **Async/Await**: properly handle Futures. Use `try-catch` blocks for external service calls (Firebase/Supabase).
+- **Null Safety**: Code must be null-safe. Use `?` and `!` appropriately but avoid `!` unless certain.
+- **Imports**: modifying imports? Sort them: Dart -> Flutter -> Package -> Project.
+
+## Specific Libraries
+- **Networking**: `http` package used. Ensure proper error handling and timeout configurations.
+- **Local Storage**: `get_storage` and `flutter_secure_storage`.
+- **Date/Time**: Use `intl` package for formatting.
+
+## AI Behavior
+- When generating UI code, default to using the existing color palette (check `lib/` for theme constants if available, or infer from context).
+- If creating a new screen, suggest adding it to the GetX route table.

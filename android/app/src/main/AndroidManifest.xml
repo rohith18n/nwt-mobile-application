@@ -1,0 +1,147 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <!-- <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_VIDEO"/>
+    <uses-permission android:name="android.permission.READ_MEDIA_AUDIO"/> -->
+
+    <application
+        android:label="Pivot Money"
+        android:name="${applicationName}"
+        android:icon="@mipmap/ic_launcher"
+        android:enableOnBackInvokedCallback="true">
+        <!-- Cashfree Subscription Flow -->
+        <meta-data
+            android:name="cashfree_subscription_flow_enable"
+            android:value="true" />
+        <!-- Clever tap configuration -->
+        <meta-data
+            android:name="CLEVERTAP_ACCOUNT_ID"
+            android:value="4RR-R77-667Z"/>
+        <meta-data
+            android:name="CLEVERTAP_TOKEN"
+            android:value="aa2-224"/>
+        <!-- IMPORTANT: To force use Google AD ID to uniquely identify  users, use the following meta tag. GDPR mandates that if you are using this tag, there is prominent disclousure to your end customer in their application. Read more about GDPR here - https://clevertap.com/blog/in-preparation-of-gdpr-compliance/ -->
+        <meta-data
+            android:name="CLEVERTAP_USE_GOOGLE_AD_ID"
+            android:value="1"/>
+        <!-- Add Google Play Services package name -->
+        <!-- Turn off Flutter's Deep Linking -->
+        <meta-data
+            android:name="flutter_deeplinking_enabled"
+            android:value="false" />
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/ic_notification" />
+        <activity android:name=".MainActivity" android:exported="true" android:launchMode="singleTop" android:taskAffinity="" android:theme="@style/Theme.AppCompat.Light.NoActionBar" android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode" android:hardwareAccelerated="true" android:windowSoftInputMode="adjustResize">
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="http" android:host="networthtracker.in" />
+                <data android:scheme="https" />
+            </intent-filter>
+            <meta-data android:name="io.flutter.embedding.android.NormalTheme" android:resource="@style/NormalTheme" />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            
+            <!-- Branch URI Scheme -->
+            <intent-filter>
+                <!-- If utilizing $deeplink_path please explicitly declare your hosts, or utilize a wildcard(*) -->
+                <!-- REPLACE `android:scheme` with your Android URI scheme -->
+                <data android:scheme="pivotmoney" android:host="open" />
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+            </intent-filter>
+
+            <!-- Branch App Links - Live App -->
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <!-- REPLACE `android:host` with your `app.link` domain -->
+                <data android:scheme="https" android:host="pivotm.app.link" />
+                <!-- REPLACE `android:host` with your `-alternate` domain (required for proper functioning of App Links and Deepviews) -->
+                <data android:scheme="https" android:host="pivotm-alternate.app.link" />
+            </intent-filter>
+
+            <!-- Branch App Links - Test App -->
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="https" android:host="pivotm.test-app.link" />
+                <!-- REPLACE `android:host` with your `-alternate` domain (required for proper functioning of App Links and Deepviews) -->
+                <data android:scheme="https" android:host="pivotm-alternate.test-app.link" />
+            </intent-filter>
+        </activity>
+        <meta-data android:name="com.google.firebase.messaging.default_notification_channel_id" android:value="high_importance_channel"/>
+        <meta-data android:name="com.google.firebase.messaging.default_notification_icon" android:resource="@drawable/ic_notification" />
+        <meta-data android:name="com.google.firebase.messaging.default_notification_color" android:resource="@color/notification_color" />
+        <meta-data android:name="flutterEmbedding" android:value="2" />
+        
+        <!-- Meta (Facebook) SDK -->
+        <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="1361832081809128" />
+        <meta-data android:name="com.facebook.sdk.ClientToken" android:value="0e4b37427d112812f9f43eab989a8260" />
+
+        <!-- Branch init -->
+        <!-- REPLACE `BranchKey` with the value from your Branch Dashboard -->
+        <meta-data android:name="io.branch.sdk.BranchKey" android:value="key_live_jExeD1o4EsHnFby94BXkxmgkuzg130AH" />
+        <!-- REPLACE `BranchKey.test` with the value from your Branch Dashboard -->
+        <meta-data android:name="io.branch.sdk.BranchKey.test" android:value="key_test_cqslzXo1xsLhqfu40qWbacgoEui05YAE" />
+        <!-- Set to `true` to use `BranchKey.test` -->
+        <meta-data android:name="io.branch.sdk.TestMode" android:value="false" />
+        <meta-data android:name="io.branch.sdk.BranchSecret" android:value="secret_live_rw7wZakgIMYJzGZDLP6niww8ueIPuzLg" />
+        <meta-data android:name="io.branch.sdk.BranchSecret.test" android:value="secret_test_S693nNyuhqUPkHKKtoY5Oh9oY9fRyzUM" />
+        <meta-data android:name="io.branch.sdk.AppId" android:value="1473618568741409782" />
+        <meta-data android:name="io.branch.sdk.AppId.test" android:value="1473618568737215477" />
+
+        <service
+            android:name="com.clevertap.android.sdk.pushnotification.fcm.FcmMessageListenerService"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+            </intent-filter>
+        </service>
+    </application>
+    
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.PROCESS_TEXT"/>
+            <data android:mimeType="text/plain"/>
+        </intent>
+        <intent>
+          <action android:name="android.intent.action.SENDTO" />
+          <data android:scheme="mailto" />
+        </intent>
+        <intent>
+          <action android:name="android.intent.action.VIEW" />
+          <data android:scheme="https" />
+        </intent>
+        <intent>
+          <action android:name="android.intent.action.VIEW" />
+          <data android:scheme="http" />
+        </intent>
+        <intent>
+          <action android:name="android.intent.action.VIEW" />
+          <data android:scheme="whatsapp" />
+        </intent>
+        <package android:name="com.whatsapp" />
+        <package android:name="com.whatsapp.w4b" />
+    </queries>
+</manifest>
