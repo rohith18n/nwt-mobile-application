@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CADisableMinimumFrameDurationOnPhone</key>
+	<true/>
+	<key>CFBundleDevelopmentRegion</key>
+	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDisplayName</key>
+	<string>Pivot Money</string>
+	<key>CFBundleExecutable</key>
+	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIdentifier</key>
+	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>1.0</string>
+	<key>CFBundleName</key>
+	<string>Pivot Money</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.9.27</string>
+	<key>CFBundleSignature</key>
+	<string>????</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>networthtracker.in</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>https</string>
+				<string>http</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>fb1361832081809128</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLName</key>
+			<string>com.app.networthtracker</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>pivotmoney</string>
+			</array>
+		</dict>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>com.googleusercontent.apps.823813601514-3p4gu65jtjd6seg11u9p042emhaoaa2t</string>
+			</array>
+		</dict>
+	</array>
+	<key>CFBundleVersion</key>
+	<string>106</string>
+	<key>CleverTapAccountID</key>
+	<string>4RR-R77-667Z</string>
+	<key>CleverTapToken</key>
+	<string>aa2-224</string>
+	<key>FacebookAppID</key>
+	<string>1361832081809128</string>
+	<key>FacebookClientToken</key>
+	<string>0e4b37427d112812f9f43eab989a8260</string>
+	<key>FacebookDisplayName</key>
+	<string>Pivot Money</string>
+	<key>FirebaseAppDelegateProxyEnabled</key>
+	<false/>
+	<key>FlutterDeepLinkingEnabled</key>
+	<false/>
+	<key>LSApplicationCategoryType</key>
+	<string></string>
+	<key>LSApplicationQueriesSchemes</key>
+	<array>
+		<string>mailto</string>
+		<string>whatsapp</string>
+	</array>
+	<key>LSRequiresIPhoneOS</key>
+	<true/>
+	<key>NSBonjourServices</key>
+	<array>
+		<string>_dartobservatory._tcp</string>
+		<string>_dart_vm_service._tcp</string>
+	</array>
+	<key>NSContactsUsageDescription</key>
+	<string>Contacts access is required to add a family member</string>
+	<key>NSFaceIDUsageDescription</key>
+	<string>Please authenticate to access the app using Face ID</string>
+	<key>NSLocalNetworkUsageDescription</key>
+	<string>Allow the debugger to connect wirelessly.</string>
+	<key>NSMicrophoneUsageDescription</key>
+	<string>This app does not require microphone access</string>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>Photo library access is required to update your profile picture</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>This app does not require speech recognition</string>
+	<key>NSUserTrackingUsageDescription</key>
+	<string>This allows us to measure app installs and improve your experience with relevant content. Your data is used in accordance with our privacy policy.</string>
+	<key>UIApplicationSupportsIndirectInputEvents</key>
+	<true/>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>remote-notification</string>
+		<string>fetch</string>
+	</array>
+	<key>UILaunchStoryboardName</key>
+	<string>LaunchScreen</string>
+	<key>UIMainStoryboardFile</key>
+	<string>Main</string>
+	<key>UIStatusBarHidden</key>
+	<false/>
+	<key>UIStatusBarStyle</key>
+	<string>UIStatusBarStyleDarkContent</string>
+	<key>UISupportedInterfaceOrientations</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UISupportedInterfaceOrientations~ipad</key>
+	<array>
+		<string>UIInterfaceOrientationPortrait</string>
+		<string>UIInterfaceOrientationPortraitUpsideDown</string>
+		<string>UIInterfaceOrientationLandscapeLeft</string>
+		<string>UIInterfaceOrientationLandscapeRight</string>
+	</array>
+	<key>UIViewControllerBasedStatusBarAppearance</key>
+	<false/>
+	<key>branch_key</key>
+	<dict>
+		<key>live</key>
+		<string>key_live_jExeD1o4EsHnFby94BXkxmgkuzg130AH</string>
+		<key>test</key>
+		<string>key_test_cqslzXo1xsLhqfu40qWbacgoEui05YAE</string>
+	</dict>
+	<key>branch_universal_link_domains</key>
+	<array>
+		<string>pivotm.app.link</string>
+		<string>pivotm-alternate.app.link</string>
+		<string>pivotm.test-app.link</string>
+	</array>
+</dict>
+</plist>
