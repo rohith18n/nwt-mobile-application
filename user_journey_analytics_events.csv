@@ -1,0 +1,315 @@
+Funnel Name,Step Number,Event Name,Event Description,Event Type,Drop-off Risk,Priority Level
+ONBOARDING FUNNEL,1,app_launched,App opened,Screen View,Low,High
+ONBOARDING FUNNEL,2,splash_screen_viewed,Splash screen shown,Screen View,Low,High
+ONBOARDING FUNNEL,3,welcome_screen_viewed,Welcome screen displayed,Screen View,Medium,High
+ONBOARDING FUNNEL,4,get_started_clicked,User clicks Get Started,Action,Medium,High
+ONBOARDING FUNNEL,5,welcome_screen_completed,User proceeds to phone verification,Completion,Low,High
+ONBOARDING FUNNEL,Drop-off,welcome_screen_abandonxed,User closes app on welcome screen,Drop-off,High,Critical
+ONBOARDING FUNNEL,Drop-off,welcome_screen_time_exceeded,User spends >2 minutes without action,Drop-off,Medium,High
+ONBOARDING FUNNEL,6,phone_screen_viewed,Phone number screen shown,Screen View,Medium,Critical
+ONBOARDING FUNNEL,7,phone_number_entered,User enters phone number,Action,Medium,Critical
+ONBOARDING FUNNEL,8,phone_submit_clicked,User clicks Send OTP,Action,Medium,Critical
+ONBOARDING FUNNEL,9,otp_sent_success,OTP sent successfully,Success,Low,Critical
+ONBOARDING FUNNEL,10,otp_screen_viewed,OTP screen displayed,Screen View,Medium,Critical
+ONBOARDING FUNNEL,11,otp_entered,User enters OTP,Action,Medium,Critical
+ONBOARDING FUNNEL,12,otp_verified_success,OTP verified successfully,Success,Low,Critical
+ONBOARDING FUNNEL,13,phone_verification_completed,Phone verification complete,Completion,Low,Critical
+ONBOARDING FUNNEL,Drop-off,phone_screen_abandoned,User exits on phone entry,Drop-off,High,Critical
+ONBOARDING FUNNEL,Drop-off,phone_number_invalid,Invalid phone number entered,Error,High,Critical
+ONBOARDING FUNNEL,Drop-off,otp_send_failed,OTP not sent (network/server error),Error,High,Critical
+ONBOARDING FUNNEL,Drop-off,otp_screen_abandoned,User exits on OTP screen,Drop-off,High,Critical
+ONBOARDING FUNNEL,Drop-off,otp_verification_failed,OTP verification fails,Error,High,Critical
+ONBOARDING FUNNEL,Drop-off,otp_resend_clicked,User requests new OTP (potential drop-off),Action,Medium,Critical
+ONBOARDING FUNNEL,Drop-off,otp_max_attempts_reached,User fails OTP verification multiple times,Error,High,Critical
+ONBOARDING FUNNEL,14,email_screen_viewed,Email screen shown,Screen View,Medium,Medium
+ONBOARDING FUNNEL,15,email_entered,User enters email,Action,Medium,Medium
+ONBOARDING FUNNEL,16,email_submit_clicked,User submits email,Action,Medium,Medium
+ONBOARDING FUNNEL,17,email_otp_sent,Email OTP sent,Success,Low,Medium
+ONBOARDING FUNNEL,18,email_otp_screen_viewed,Email OTP screen shown,Screen View,Medium,Medium
+ONBOARDING FUNNEL,19,email_otp_entered,User enters email OTP,Action,Medium,Medium
+ONBOARDING FUNNEL,20,email_verified_success,Email verified,Success,Low,Medium
+ONBOARDING FUNNEL,21,email_verification_completed,Email verification complete,Completion,Low,Medium
+ONBOARDING FUNNEL,Drop-off,email_screen_abandoned,User exits on email screen,Drop-off,Medium,Medium
+ONBOARDING FUNNEL,Drop-off,email_otp_not_received,User doesn't receive email OTP,Error,High,Medium
+ONBOARDING FUNNEL,Drop-off,email_verification_failed,Email OTP verification fails,Error,High,Medium
+ONBOARDING FUNNEL,Drop-off,email_skip_clicked,User chooses to skip email verification,Action,Medium,Medium
+ONBOARDING FUNNEL,22,pan_screen_viewed,PAN verification screen shown,Screen View,Medium,Critical
+ONBOARDING FUNNEL,23,pan_method_selected,User chooses scan/manual entry,Action,Medium,Critical
+ONBOARDING FUNNEL,24,pan_scanned,PAN card scanned successfully,Success,Low,Critical
+ONBOARDING FUNNEL,25,pan_manual_entered,PAN entered manually,Action,Medium,Critical
+ONBOARDING FUNNEL,26,pan_submit_clicked,User submits PAN,Action,Medium,Critical
+ONBOARDING FUNNEL,27,pan_verification_processing,PAN verification in progress,Processing,Low,Critical
+ONBOARDING FUNNEL,28,pan_verified_success,PAN verified successfully,Success,Low,Critical
+ONBOARDING FUNNEL,29,pan_consent_shown,PAN consent displayed,Screen View,Medium,Critical
+ONBOARDING FUNNEL,30,pan_consent_accepted,User accepts consent,Action,Medium,Critical
+ONBOARDING FUNNEL,31,pan_verification_completed,PAN verification complete,Completion,Low,Critical
+ONBOARDING FUNNEL,Drop-off,pan_screen_abandoned,User exits on PAN screen,Drop-off,High,Critical
+ONBOARDING FUNNEL,Drop-off,pan_scan_failed,PAN scanning fails,Error,High,Critical
+ONBOARDING FUNNEL,Drop-off,pan_manual_entry_failed,Manual PAN entry fails,Error,High,Critical
+ONBOARDING FUNNEL,Drop-off,pan_verification_failed,PAN verification fails,Error,High,Critical
+ONBOARDING FUNNEL,Drop-off,pan_consent_declined,User declines PAN consent,Action,High,Critical
+ONBOARDING FUNNEL,Drop-off,pan_verification_timeout,PAN verification times out,Error,High,Critical
+ONBOARDING FUNNEL,32,personalize_screen_viewed,Personalization screen shown,Screen View,Medium,Medium
+ONBOARDING FUNNEL,33,personalize_options_displayed,Options displayed to user,Screen View,Low,Medium
+ONBOARDING FUNNEL,34,personalize_option_selected,User selects options,Action,Medium,Medium
+ONBOARDING FUNNEL,35,personalize_continue_clicked,User clicks continue,Action,Medium,Medium
+ONBOARDING FUNNEL,36,personalization_completed,Personalization complete,Completion,Low,Medium
+ONBOARDING FUNNEL,Drop-off,personalize_screen_abandoned,User exits on personalization,Drop-off,Medium,Medium
+ONBOARDING FUNNEL,Drop-off,personalize_no_options_selected,User doesn't select any options,Drop-off,Medium,Medium
+ONBOARDING FUNNEL,Drop-off,personalize_screen_skipped,User skips personalization,Action,Medium,Medium
+BSE V2 FINAL ONBOARDING,1,bse_v2_journey_started,User starts BSE V2 onboarding,Screen View,Low,High
+BSE V2 FINAL ONBOARDING,2,bse_v2_pan_verification_completed,PAN verification completed,Success,Low,High
+BSE V2 FINAL ONBOARDING,3,bse_v2_holder_details_screen_viewed,Holder details screen shown,Screen View,Medium,High
+BSE V2 FINAL ONBOARDING,4,bse_v2_holder_details_filled,User fills holder details,Action,Medium,High
+BSE V2 FINAL ONBOARDING,5,bse_v2_holder_details_submitted,User submits holder details,Action,Medium,High
+BSE V2 FINAL ONBOARDING,6,bse_v2_bank_verification_screen_viewed,Bank verification screen shown,Screen View,Medium,High
+BSE V2 FINAL ONBOARDING,7,bse_v2_bank_details_entered,User enters bank details,Action,Medium,High
+BSE V2 FINAL ONBOARDING,8,bse_v2_bank_verification_completed,Bank verification completed,Success,Low,High
+BSE V2 FINAL ONBOARDING,9,bse_v2_occupation_details_screen_viewed,Occupation screen shown,Screen View,Medium,High
+BSE V2 FINAL ONBOARDING,10,bse_v2_occupation_details_filled,User fills occupation details,Action,Medium,High
+BSE V2 FINAL ONBOARDING,11,bse_v2_occupation_details_submitted,User submits occupation details,Action,Medium,High
+BSE V2 FINAL ONBOARDING,12,bse_v2_signature_screen_viewed,Signature screen shown,Screen View,Medium,High
+BSE V2 FINAL ONBOARDING,13,bse_v2_signature_completed,User completes signature,Action,Medium,High
+BSE V2 FINAL ONBOARDING,14,bse_v2_nominee_screen_viewed,Nominee screen shown,Screen View,Medium,High
+BSE V2 FINAL ONBOARDING,15,bse_v2_nominee_added,User adds nominee,Action,Medium,High
+BSE V2 FINAL ONBOARDING,16,bse_v2_success_screen_viewed,Success screen shown,Screen View,Low,High
+BSE V2 FINAL ONBOARDING,17,bse_v2_journey_completed,BSE V2 journey completed,Completion,Low,High
+BSE V2 FINAL ONBOARDING,Drop-off,bse_v2_journey_abandoned,User abandons BSE V2 journey,Drop-off,High,Critical
+BSE V2 FINAL ONBOARDING,Drop-off,bse_v2_holder_details_incomplete,Incomplete holder details,Error,High,High
+BSE V2 FINAL ONBOARDING,Drop-off,bse_v2_bank_verification_failed,Bank verification fails,Error,High,High
+BSE V2 FINAL ONBOARDING,Drop-off,bse_v2_occupation_details_incomplete,Incomplete occupation details,Error,High,High
+BSE V2 FINAL ONBOARDING,Drop-off,bse_v2_signature_failed,Signature fails,Error,High,High
+BSE V2 FINAL ONBOARDING,Drop-off,bse_v2_nominee_skipped,User skips nominee addition,Action,Medium,High
+BSE V2 FINAL ONBOARDING,Drop-off,bse_v2_journey_timeout,Journey times out,Error,High,High
+DASHBOARD ENGAGEMENT,1,dashboard_first_visit,User's first dashboard visit,Screen View,Low,High
+DASHBOARD ENGAGEMENT,2,dashboard_assets_loaded,Assets loaded successfully,Success,Low,High
+DASHBOARD ENGAGEMENT,3,dashboard_portfolio_viewed,User views portfolio,Screen View,Low,High
+DASHBOARD ENGAGEMENT,4,dashboard_asset_clicked,User clicks on an asset,Action,Low,High
+DASHBOARD ENGAGEMENT,5,dashboard_explored,User explores dashboard features,Action,Low,High
+DASHBOARD ENGAGEMENT,6,dashboard_first_session_completed,First dashboard session complete,Completion,Low,High
+DASHBOARD ENGAGEMENT,Drop-off,dashboard_first_visit_abandoned,User abandons first dashboard visit,Drop-off,Medium,High
+DASHBOARD ENGAGEMENT,Drop-off,dashboard_assets_load_failed,Assets fail to load,Error,High,High
+DASHBOARD ENGAGEMENT,Drop-off,dashboard_no_interaction,User doesn't interact with dashboard,Drop-off,Medium,High
+DASHBOARD ENGAGEMENT,Drop-off,dashboard_first_session_short,Session lasts <30 seconds,Drop-off,Medium,High
+DASHBOARD ENGAGEMENT,7,dashboard_screen_viewed,Dashboard screen viewed,Screen View,Low,Medium
+DASHBOARD ENGAGEMENT,8,dashboard_bottom_tab_clicked,User clicks bottom tab,Action,Low,Medium
+DASHBOARD ENGAGEMENT,9,dashboard_asset_card_clicked,User clicks asset card,Action,Low,Medium
+DASHBOARD ENGAGEMENT,10,dashboard_quick_action_clicked,User clicks quick action,Action,Low,Medium
+DASHBOARD ENGAGEMENT,11,dashboard_search_used,User uses search,Action,Low,Medium
+DASHBOARD ENGAGEMENT,12,dashboard_navigation_completed,User navigates successfully,Completion,Low,Medium
+DASHBOARD ENGAGEMENT,Drop-off,dashboard_navigation_abandoned,User abandons navigation,Drop-off,Medium,Medium
+DASHBOARD ENGAGEMENT,Drop-off,dashboard_search_failed,Search fails or returns no results,Error,Medium,Medium
+DASHBOARD ENGAGEMENT,Drop-off,dashboard_asset_load_failed,Asset details fail to load,Error,Medium,Medium
+DASHBOARD ENGAGEMENT,Drop-off,dashboard_navigation_confused,User seems lost (multiple rapid clicks),Drop-off,Medium,Medium
+ACCOUNT LINKING,1,data_fetch_initiated,User starts data fetch process,Screen View,Low,High
+ACCOUNT LINKING,2,data_fetch_screen_viewed,Data fetch screen viewed,Screen View,Medium,High
+ACCOUNT LINKING,3,data_fetch_provider_selected,User selects data provider,Action,Medium,High
+ACCOUNT LINKING,4,data_fetch_consent_shown,Consent screen shown,Screen View,Medium,High
+ACCOUNT LINKING,5,data_fetch_consent_accepted,User accepts consent,Action,Medium,High
+ACCOUNT LINKING,6,data_fetch_redirect_initiated,Redirect to provider initiated,Action,Medium,High
+ACCOUNT LINKING,7,data_fetch_provider_completed,Provider process completed,Success,Low,High
+ACCOUNT LINKING,8,data_fetch_sync_started,Data sync started,Processing,Low,High
+ACCOUNT LINKING,9,data_fetch_completed,Data fetch completed successfully,Completion,Low,High
+ACCOUNT LINKING,Drop-off,data_fetch_abandoned,User abandons data fetch,Drop-off,High,Critical
+ACCOUNT LINKING,Drop-off,data_fetch_consent_declined,User declines consent,Action,High,Critical
+ACCOUNT LINKING,Drop-off,data_fetch_redirect_failed,Redirect to provider fails,Error,High,Critical
+ACCOUNT LINKING,Drop-off,data_fetch_provider_error,Provider returns error,Error,High,Critical
+ACCOUNT LINKING,Drop-off,data_fetch_sync_failed,Data sync fails,Error,High,Critical
+ACCOUNT LINKING,Drop-off,data_fetch_timeout,Data fetch times out,Error,High,Critical
+ACCOUNT LINKING,10,account_status_screen_viewed,Account status screen viewed,Screen View,Medium,Medium
+ACCOUNT LINKING,11,account_status_checked,User checks account status,Action,Medium,Medium
+ACCOUNT LINKING,12,account_refresh_clicked,User clicks refresh,Action,Medium,Medium
+ACCOUNT LINKING,13,account_refresh_completed,Account refresh completed,Success,Low,Medium
+ACCOUNT LINKING,14,account_details_viewed,User views account details,Screen View,Low,Medium
+ACCOUNT LINKING,Drop-off,account_status_abandoned,User abandons account status check,Drop-off,Medium,Medium
+ACCOUNT LINKING,Drop-off,account_refresh_failed,Account refresh fails,Error,Medium,Medium
+ACCOUNT LINKING,Drop-off,account_details_load_failed,Account details fail to load,Error,Medium,Medium
+INVESTMENT JOURNEY,1,investments_screen_viewed,Investments screen viewed,Screen View,Low,High
+INVESTMENT JOURNEY,2,investment_category_selected,User selects investment category,Action,Medium,High
+INVESTMENT JOURNEY,3,investment_holdings_viewed,User views holdings,Screen View,Low,High
+INVESTMENT JOURNEY,4,investment_details_viewed,User views investment details,Screen View,Low,High
+INVESTMENT JOURNEY,5,investment_analytics_viewed,User views investment analytics,Screen View,Low,High
+INVESTMENT JOURNEY,Drop-off,investments_screen_abandoned,User abandons investments screen,Drop-off,Medium,High
+INVESTMENT JOURNEY,Drop-off,investment_category_not_selected,User doesn't select category,Drop-off,Medium,High
+INVESTMENT JOURNEY,Drop-off,investment_holdings_load_failed,Holdings fail to load,Error,High,High
+INVESTMENT JOURNEY,Drop-off,investment_details_load_failed,Investment details fail to load,Error,Medium,High
+INVESTMENT JOURNEY,6,mf_central_initiated,User starts MF Central process,Screen View,Low,High
+INVESTMENT JOURNEY,7,mf_central_qr_displayed,QR code displayed,Screen View,Medium,High
+INVESTMENT JOURNEY,8,mf_central_scanned,QR code scanned,Success,Low,High
+INVESTMENT JOURNEY,9,mf_central_authenticated,User authenticates with MF Central,Success,Low,High
+INVESTMENT JOURNEY,10,mf_central_accounts_linked,Accounts linked successfully,Success,Low,High
+INVESTMENT JOURNEY,11,mf_holdings_synced,MF holdings synced,Success,Low,High
+INVESTMENT JOURNEY,12,mf_portfolio_viewed,User views MF portfolio,Screen View,Low,High
+INVESTMENT JOURNEY,Drop-off,mf_central_abandoned,User abandons MF Central process,Drop-off,High,Critical
+INVESTMENT JOURNEY,Drop-off,mf_central_qr_not_scanned,QR code not scanned,Drop-off,High,Critical
+INVESTMENT JOURNEY,Drop-off,mf_central_authentication_failed,Authentication fails,Error,High,Critical
+INVESTMENT JOURNEY,Drop-off,mf_central_linking_failed,Account linking fails,Error,High,Critical
+INVESTMENT JOURNEY,Drop-off,mf_holdings_sync_failed,Holdings sync fails,Error,High,Critical
+INVESTMENT JOURNEY,13,investment_action_initiated,User starts investment action,Screen View,Low,High
+INVESTMENT JOURNEY,14,investment_type_selected,User selects investment type,Action,Medium,High
+INVESTMENT JOURNEY,15,investment_amount_entered,User enters investment amount,Action,Medium,High
+INVESTMENT JOURNEY,16,investment_confirmed,User confirms investment,Action,Medium,High
+INVESTMENT JOURNEY,17,investment_payment_initiated,Payment initiated,Processing,Low,High
+INVESTMENT JOURNEY,18,investment_completed,Investment completed successfully,Completion,Low,High
+INVESTMENT JOURNEY,Drop-off,investment_action_abandoned,User abandons investment action,Drop-off,High,High
+INVESTMENT JOURNEY,Drop-off,investment_amount_invalid,Invalid investment amount,Error,High,High
+INVESTMENT JOURNEY,Drop-off,investment_confirmation_cancelled,User cancels confirmation,Action,Medium,High
+INVESTMENT JOURNEY,Drop-off,investment_payment_failed,Payment fails,Error,High,High
+INVESTMENT JOURNEY,Drop-off,investment_timeout,Investment process times out,Error,High,High
+ADVISORY & RECOMMENDATIONS,1,advisory_screen_viewed,Advisory screen viewed,Screen View,Low,Medium
+ADVISORY & RECOMMENDATIONS,2,advisory_category_selected,User selects advisory category,Action,Medium,Medium
+ADVISORY & RECOMMENDATIONS,3,advisory_recommendations_viewed,User views recommendations,Screen View,Low,Medium
+ADVISORY & RECOMMENDATIONS,4,advisory_details_viewed,User views advisory details,Screen View,Low,Medium
+ADVISORY & RECOMMENDATIONS,5,advisory_action_initiated,User initiates advisory action,Action,Medium,Medium
+ADVISORY & RECOMMENDATIONS,Drop-off,advisory_screen_abandoned,User abandons advisory screen,Drop-off,Medium,Medium
+ADVISORY & RECOMMENDATIONS,Drop-off,advisory_no_category_selected,User doesn't select category,Drop-off,Medium,Medium
+ADVISORY & RECOMMENDATIONS,Drop-off,advisory_recommendations_load_failed,Recommendations fail to load,Error,Medium,Medium
+ADVISORY & RECOMMENDATIONS,Drop-off,advisory_details_load_failed,Advisory details fail to load,Error,Medium,Medium
+ADVISORY & RECOMMENDATIONS,6,advisory_implementation_started,User starts implementation,Screen View,Low,Medium
+ADVISORY & RECOMMENDATIONS,7,advisory_strategy_selected,User selects strategy,Action,Medium,Medium
+ADVISORY & RECOMMENDATIONS,8,advisory_portfolio_analyzed,Portfolio analyzed,Success,Low,Medium
+ADVISORY & RECOMMENDATIONS,9,advisory_orders_created,Orders created,Success,Low,Medium
+ADVISORY & RECOMMENDATIONS,10,advisory_orders_executed,Orders executed,Success,Low,Medium
+ADVISORY & RECOMMENDATIONS,11,advisory_implementation_completed,Implementation completed,Completion,Low,Medium
+ADVISORY & RECOMMENDATIONS,Drop-off,advisory_implementation_abandoned,User abandons implementation,Drop-off,Medium,Medium
+ADVISORY & RECOMMENDATIONS,Drop-off,advisory_strategy_not_selected,User doesn't select strategy,Drop-off,Medium,Medium
+ADVISORY & RECOMMENDATIONS,Drop-off,advisory_portfolio_analysis_failed,Portfolio analysis fails,Error,Medium,Medium
+ADVISORY & RECOMMENDATIONS,Drop-off,advisory_order_creation_failed,Order creation fails,Error,Medium,Medium
+ADVISORY & RECOMMENDATIONS,Drop-off,advisory_order_execution_failed,Order execution fails,Error,Medium,Medium
+ORDER & TRANSACTION,1,order_creation_initiated,User starts order creation,Screen View,Low,High
+ORDER & TRANSACTION,2,order_type_selected,User selects order type,Action,Medium,High
+ORDER & TRANSACTION,3,order_details_entered,User enters order details,Action,Medium,High
+ORDER & TRANSACTION,4,order_review_started,Order review started,Screen View,Medium,High
+ORDER & TRANSACTION,5,order_confirmed,Order confirmed,Action,Medium,High
+ORDER & TRANSACTION,6,order_payment_initiated,Payment initiated,Processing,Low,High
+ORDER & TRANSACTION,7,order_completed,Order completed,Completion,Low,High
+ORDER & TRANSACTION,Drop-off,order_creation_abandoned,User abandons order creation,Drop-off,High,High
+ORDER & TRANSACTION,Drop-off,order_type_not_selected,User doesn't select order type,Drop-off,Medium,High
+ORDER & TRANSACTION,Drop-off,order_details_invalid,Invalid order details,Error,High,High
+ORDER & TRANSACTION,Drop-off,order_review_cancelled,User cancels during review,Action,Medium,High
+ORDER & TRANSACTION,Drop-off,order_payment_failed,Payment fails,Error,High,High
+ORDER & TRANSACTION,Drop-off,order_execution_failed,Order execution fails,Error,High,High
+ORDER & TRANSACTION,8,payment_initiated,Payment initiated,Screen View,Low,High
+ORDER & TRANSACTION,9,payment_method_selected,User selects payment method,Action,Medium,High
+ORDER & TRANSACTION,10,payment_details_entered,User enters payment details,Action,Medium,High
+ORDER & TRANSACTION,11,payment_processing_started,Payment processing started,Processing,Low,High
+ORDER & TRANSACTION,12,payment_completed,Payment completed,Completion,Low,High
+ORDER & TRANSACTION,Drop-off,payment_abandoned,User abandons payment,Drop-off,High,High
+ORDER & TRANSACTION,Drop-off,payment_method_not_selected,User doesn't select payment method,Drop-off,Medium,High
+ORDER & TRANSACTION,Drop-off,payment_details_invalid,Invalid payment details,Error,High,High
+ORDER & TRANSACTION,Drop-off,payment_processing_failed,Payment processing fails,Error,High,High
+ORDER & TRANSACTION,Drop-off,payment_timeout,Payment times out,Error,High,High
+USER RETENTION & ENGAGEMENT,1,daily_session_started,Daily session started,Screen View,Low,Medium
+USER RETENTION & ENGAGEMENT,2,dashboard_viewed,Dashboard viewed,Screen View,Low,Medium
+USER RETENTION & ENGAGEMENT,3,portfolio_checked,Portfolio checked,Action,Low,Medium
+USER RETENTION & ENGAGEMENT,4,transactions_viewed,Transactions viewed,Screen View,Low,Medium
+USER RETENTION & ENGAGEMENT,5,actions_taken,User takes actions,Action,Low,Medium
+USER RETENTION & ENGAGEMENT,6,daily_session_completed,Daily session completed,Completion,Low,Medium
+USER RETENTION & ENGAGEMENT,Drop-off,daily_session_abandoned,User abandons daily session,Drop-off,Medium,Medium
+USER RETENTION & ENGAGEMENT,Drop-off,portfolio_not_checked,User doesn't check portfolio,Drop-off,Medium,Medium
+USER RETENTION & ENGAGEMENT,Drop-off,no_actions_taken,User doesn't take any actions,Drop-off,Medium,Medium
+USER RETENTION & ENGAGEMENT,Drop-off,daily_session_very_short,Session lasts <10 seconds,Drop-off,Medium,Medium
+USER RETENTION & ENGAGEMENT,7,feature_discovered,User discovers new feature,Screen View,Low,Low
+USER RETENTION & ENGAGEMENT,8,feature_explored,User explores feature,Action,Low,Low
+USER RETENTION & ENGAGEMENT,9,feature_used,User uses feature,Action,Low,Low
+USER RETENTION & ENGAGEMENT,10,feature_value_realized,User realizes value,Success,Low,Low
+USER RETENTION & ENGAGEMENT,11,feature_adopted,Feature adopted into routine,Completion,Low,Low
+USER RETENTION & ENGAGEMENT,Drop-off,feature_not_discovered,User doesn't discover feature,Drop-off,Medium,Low
+USER RETENTION & ENGAGEMENT,Drop-off,feature_not_explored,User doesn't explore feature,Drop-off,Medium,Low
+USER RETENTION & ENGAGEMENT,Drop-off,feature_not_used,User doesn't use feature,Drop-off,Medium,Low
+USER RETENTION & ENGAGEMENT,Drop-off,feature_value_not_realized,User doesn't realize value,Drop-off,Medium,Low
+USER RETENTION & ENGAGEMENT,Drop-off,feature_abandoned,User abandons feature,Drop-off,Medium,Low
+PAPER TRADING,1,paper_trading_screen_viewed,Paper trading screen viewed,Screen View,Low,High
+PAPER TRADING,2,paper_trading_tutorial_viewed,How does it work tutorial viewed,Screen View,Medium,High
+PAPER TRADING,3,paper_trading_investment_method_selected,Investment method selected,Action,Medium,High
+PAPER TRADING,4,paper_trading_strategy_selected,Strategy selected,Action,Medium,High
+PAPER TRADING,5,paper_trading_simulation_started,Simulation started,Action,Low,High
+PAPER TRADING,6,paper_trading_portfolio_created,Portfolio created,Success,Low,High
+PAPER TRADING,7,paper_trading_history_viewed,History viewed,Screen View,Low,High
+PAPER TRADING,8,paper_trading_completed,Paper trading session completed,Completion,Low,High
+PAPER TRADING,Drop-off,paper_trading_abandoned,User abandons paper trading,Drop-off,Medium,High
+PAPER TRADING,Drop-off,paper_trading_tutorial_skipped,User skips tutorial,Action,Medium,High
+PAPER TRADING,Drop-off,paper_trading_method_not_selected,Investment method not selected,Drop-off,Medium,High
+PAPER TRADING,Drop-off,paper_trading_strategy_not_selected,Strategy not selected,Drop-off,Medium,High
+PAPER TRADING,Drop-off,paper_trading_simulation_failed,Simulation failed,Error,High,High
+TRANSACTIONS,1,transactions_screen_viewed,Transactions screen viewed,Screen View,Low,High
+TRANSACTIONS,2,bank_transactions_viewed,Bank transactions viewed,Screen View,Low,High
+TRANSACTIONS,3,bank_transaction_details_viewed,Transaction details viewed,Screen View,Low,High
+TRANSACTIONS,4,transaction_search_initiated,Search initiated,Action,Medium,High
+TRANSACTIONS,5,transaction_filter_applied,Filter applied,Action,Medium,High
+TRANSACTIONS,6,transactions_completed,Transaction viewing completed,Completion,Low,High
+TRANSACTIONS,Drop-off,transactions_screen_abandoned,User abandons transactions screen,Drop-off,Medium,High
+TRANSACTIONS,Drop-off,transaction_search_failed,Search failed,Error,Medium,High
+TRANSACTIONS,Drop-off,transaction_details_load_failed,Transaction details failed to load,Error,High,High
+SEARCH,1,global_search_initiated,Global search initiated,Screen View,Low,High
+SEARCH,2,search_query_entered,Search query entered,Action,Medium,High
+SEARCH,3,search_results_viewed,Search results viewed,Screen View,Low,High
+SEARCH,4,search_result_clicked,Search result clicked,Action,Medium,High
+SEARCH,5,search_filter_applied,Search filter applied,Action,Medium,High
+SEARCH,6,search_completed,Search session completed,Completion,Low,High
+SEARCH,Drop-off,search_abandoned,User abandons search,Drop-off,Medium,High
+SEARCH,Drop-off,search_no_results,Search returns no results,Error,Medium,High
+SEARCH,Drop-off,search_query_invalid,Invalid search query,Error,Medium,High
+FAMILY FEATURES,1,family_management_viewed,Family management viewed,Screen View,Low,Medium
+FAMILY FEATURES,2,family_member_add_initiated,Add family member initiated,Screen View,Medium,Medium
+FAMILY FEATURES,3,family_member_details_entered,Member details entered,Action,Medium,Medium
+FAMILY FEATURES,4,family_member_added,Family member added,Success,Low,Medium
+FAMILY FEATURES,5,family_settings_viewed,Family settings viewed,Screen View,Low,Medium
+FAMILY FEATURES,6,family_finances_viewed,Family finances viewed,Screen View,Low,Medium
+FAMILY FEATURES,7,family_management_completed,Family management completed,Completion,Low,Medium
+FAMILY FEATURES,Drop-off,family_management_abandoned,User abandons family management,Drop-off,Medium,Medium
+FAMILY FEATURES,Drop-off,family_member_add_cancelled,Add member cancelled,Action,Medium,Medium
+FAMILY FEATURES,Drop-off,family_member_details_incomplete,Member details incomplete,Error,Medium,Medium
+ORDERS & TRANSACTIONS EXTENDED,1,orders_screen_viewed,Orders list screen viewed,Screen View,Low,High
+ORDERS & TRANSACTIONS EXTENDED,2,order_details_viewed,Order details viewed,Screen View,Low,High
+ORDERS & TRANSACTIONS EXTENDED,3,order_preview_viewed,Order preview viewed,Screen View,Medium,High
+ORDERS & TRANSACTIONS EXTENDED,4,order_preview_sheet_viewed,Order preview sheet viewed,Screen View,Medium,High
+ORDERS & TRANSACTIONS EXTENDED,5,payment_processing_started,Payment processing started,Processing,Low,High
+ORDERS & TRANSACTIONS EXTENDED,6,payment_completed,Payment completed successfully,Success,Low,High
+ORDERS & TRANSACTIONS EXTENDED,7,payment_failed,Payment failed,Error,High,High
+ORDERS & TRANSACTIONS EXTENDED,8,order_redemption_initiated,Order redemption initiated,Action,Medium,High
+ORDERS & TRANSACTIONS EXTENDED,9,orders_session_completed,Orders session completed,Completion,Low,High
+ORDERS & TRANSACTIONS EXTENDED,Drop-off,orders_screen_abandoned,User abandons orders screen,Drop-off,Medium,High
+ORDERS & TRANSACTIONS EXTENDED,Drop-off,order_details_load_failed,Order details failed to load,Error,High,High
+ORDERS & TRANSACTIONS EXTENDED,Drop-off,order_preview_cancelled,Order preview cancelled,Action,Medium,High
+ORDERS & TRANSACTIONS EXTENDED,Drop-off,payment_timeout,Payment processing times out,Error,High,High
+PROFILE & SETTINGS EXTENDED,1,account_details_viewed,Account details viewed,Screen View,Low,Medium
+PROFILE & SETTINGS EXTENDED,2,biometrics_setup_viewed,Biometrics setup viewed,Screen View,Medium,Medium
+PROFILE & SETTINGS EXTENDED,3,biometrics_setup_completed,Biometrics setup completed,Success,Low,Medium
+PROFILE & SETTINGS EXTENDED,4,consent_revoke_screen_viewed,Consent revoke screen viewed,Screen View,Medium,Medium
+PROFILE & SETTINGS EXTENDED,5,consent_revoked,Consent revoked,Action,Medium,Medium
+PROFILE & SETTINGS EXTENDED,6,data_protection_viewed,Data protection viewed,Screen View,Low,Medium
+PROFILE & SETTINGS EXTENDED,7,profile_edit_initiated,Profile edit initiated,Screen View,Medium,Medium
+PROFILE & SETTINGS EXTENDED,8,profile_updated,Profile updated,Success,Low,Medium
+PROFILE & SETTINGS EXTENDED,9,help_faq_viewed,Help FAQ viewed,Screen View,Low,Medium
+PROFILE & SETTINGS EXTENDED,10,holder_management_viewed,Holder management viewed,Screen View,Low,Medium
+PROFILE & SETTINGS EXTENDED,11,holder_details_viewed,Holder details viewed,Screen View,Low,Medium
+PROFILE & SETTINGS EXTENDED,12,pin_setup_viewed,PIN setup viewed,Screen View,Medium,Medium
+PROFILE & SETTINGS EXTENDED,13,pin_setup_completed,PIN setup completed,Success,Low,Medium
+PROFILE & SETTINGS EXTENDED,14,pin_reset_viewed,PIN reset viewed,Screen View,Medium,Medium
+PROFILE & SETTINGS EXTENDED,15,pin_reset_completed,PIN reset completed,Success,Low,Medium
+PROFILE & SETTINGS EXTENDED,16,pin_verification_viewed,PIN verification viewed,Screen View,Medium,Medium
+PROFILE & SETTINGS EXTENDED,17,pin_verified,PIN verified successfully,Success,Low,Medium
+PROFILE & SETTINGS EXTENDED,18,user_profile_viewed,User profile viewed,Screen View,Low,Medium
+PROFILE & SETTINGS EXTENDED,19,profile_settings_completed,Profile settings completed,Completion,Low,Medium
+PROFILE & SETTINGS EXTENDED,Drop-off,profile_edit_cancelled,Profile edit cancelled,Action,Medium,Medium
+PROFILE & SETTINGS EXTENDED,Drop-off,biometrics_setup_failed,Biometrics setup failed,Error,Medium,Medium
+PROFILE & SETTINGS EXTENDED,Drop-off,pin_setup_failed,PIN setup failed,Error,High,Medium
+PROFILE & SETTINGS EXTENDED,Drop-off,pin_verification_failed,PIN verification failed,Error,High,Medium
+PERSONAL ASSETS EXTENDED,1,personal_assets_screen_viewed,Personal assets screen viewed,Screen View,Low,Medium
+PERSONAL ASSETS EXTENDED,2,asset_type_selected,Asset type selected,Action,Medium,Medium
+PERSONAL ASSETS EXTENDED,3,crypto_assets_viewed,Crypto assets viewed,Screen View,Low,Medium
+PERSONAL ASSETS EXTENDED,4,crypto_holdings_added,Crypto holdings added,Success,Low,Medium
+PERSONAL ASSETS EXTENDED,5,real_estate_viewed,Real estate viewed,Screen View,Low,Medium
+PERSONAL ASSETS EXTENDED,6,real_estate_property_added,Property added,Success,Low,Medium
+PERSONAL ASSETS EXTENDED,7,land_assets_viewed,Land assets viewed,Screen View,Low,Medium
+PERSONAL ASSETS EXTENDED,8,precious_metals_viewed,Precious metals viewed,Screen View,Low,Medium
+PERSONAL ASSETS EXTENDED,9,precious_metals_holdings_added,Metals holdings added,Success,Low,Medium
+PERSONAL ASSETS EXTENDED,10,money_lending_viewed,Money lending viewed,Screen View,Low,Medium
+PERSONAL ASSETS EXTENDED,11,money_lending_records_added,Lending records added,Success,Low,Medium
+PERSONAL ASSETS EXTENDED,12,other_assets_viewed,Other assets viewed,Screen View,Low,Medium
+PERSONAL ASSETS EXTENDED,13,other_assets_added,Other assets added,Success,Low,Medium
+PERSONAL ASSETS EXTENDED,14,personal_assets_completed,Personal assets session completed,Completion,Low,Medium
+PERSONAL ASSETS EXTENDED,Drop-off,personal_assets_abandoned,User abandons personal assets,Drop-off,Medium,Medium
+PERSONAL ASSETS EXTENDED,Drop-off,asset_type_not_selected,Asset type not selected,Drop-off,Medium,Medium
+PERSONAL ASSETS EXTENDED,Drop-off,asset_addition_failed,Asset addition failed,Error,Medium,Medium

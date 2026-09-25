@@ -1,0 +1,222 @@
+name: nwt_app
+description: "Make your money grow"
+publish_to: 'none'
+
+version: 1.8.0+74
+environment: 
+  sdk: ^3.7.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  flutter_svg: ^2.1.0
+  flutter_launcher_icons: ^0.14.3
+  saafe_aa_sdk: ^1.0.1
+  get: ^4.7.2
+  lottie: ^3.3.1
+  cached_network_image: ^3.4.1
+  intl: ^0.20.2
+  get_storage: ^2.1.1
+  sms_autofill: ^2.4.1
+  firebase_messaging: ^16.1.1
+  flutter_local_notifications: ^17.2.3
+  firebase_core: ^4.4.0
+  firebase_crashlytics: ^5.0.7
+  firebase_analytics: ^12.0.0
+  app_links: ^6.4.0
+  flutter_inappwebview: ^6.1.5
+  firebase_remote_config: ^6.1.4
+  local_auth: ^2.3.0
+  file_picker: ^10.1.9
+  connectivity_plus: ^6.1.4
+  animate_do: ^4.2.0
+  pull_to_refresh: ^2.0.0
+  shimmer: ^3.0.0
+  flutter_screenutil: ^5.9.3
+  http: ^1.4.0
+  syncfusion_flutter_charts: ^29.2.7
+  in_app_update: ^4.2.3
+  supabase_flutter: ^2.9.0
+  upgrader: ^11.4.0
+  force_update_helper: ^0.2.1
+  package_info_plus: ^8.3.0
+  url_launcher: ^6.3.1
+  permission_handler: ^12.0.0+1
+  flutter_secure_storage: ^9.2.4
+  flutter_native_splash: ^2.4.6
+  firebase_in_app_messaging: ^0.9.0+6
+  flutter_animate: ^4.5.0
+  flutter_card_swiper: ^7.0.2
+  flutter_contacts: ^1.1.9+2
+  share_plus: ^11.0.0
+  flutter_branch_sdk: ^8.5.0
+  fluttertoast: ^8.2.12
+  provider: ^6.1.2
+  syncfusion_flutter_signaturepad: ^29.2.11
+  firebase_auth: ^6.1.4
+  google_sign_in: ^7.2.0
+  flutter_image_compress: ^2.3.0
+  path_provider: ^2.1.5
+  universal_io: ^2.3.1
+  clevertap_plugin: ^3.6.0
+  appsflyer_sdk: ^6.17.8
+  facebook_app_events: ^0.19.0
+  crypto: ^3.0.3
+  pinput: ^5.0.0
+  flutter_cashfree_pg_sdk: ^2.2.10+48
+  syncfusion_flutter_pdfviewer: ^29.2.11
+  web_socket_channel: ^3.0.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  assets:
+    - assets/svgs/onboarding/
+    - assets/app/
+    - assets/lottie/
+    - assets/svgs/dashboard/
+    - assets/svgs/assets/banks/
+    - assets/svgs/assets/mutual_funds/
+    - assets/svgs/connections/
+    - assets/svgs/assets/investments/
+    - assets/svgs/mf_switch/
+    - assets/svgs/products/
+    - assets/svgs/advisory/
+    - assets/svgs/saafe/
+    - assets/finarkein/
+    - assets/imgs/dashboard/recommendation/
+    - assets/integrations/
+    - assets/splash/
+    - assets/svgs/
+    - assets/imgs/advisory/
+    - assets/data/
+    - shorebird.yaml
+    
+  uses-material-design: true
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Thin.ttf
+          weight: 100
+        - asset: assets/fonts/Poppins-ThinItalic.ttf
+          weight: 100
+          style: italic
+        - asset: assets/fonts/Poppins-ExtraLight.ttf
+          weight: 200
+        - asset: assets/fonts/Poppins-ExtraLightItalic.ttf
+          weight: 200
+          style: italic
+        - asset: assets/fonts/Poppins-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Poppins-LightItalic.ttf
+          weight: 300
+          style: italic
+        - asset: assets/fonts/Poppins-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Poppins-Italic.ttf
+          weight: 400
+          style: italic
+        - asset: assets/fonts/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins-MediumItalic.ttf
+          weight: 500
+          style: italic
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins-SemiBoldItalic.ttf
+          weight: 600
+          style: italic
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Poppins-BoldItalic.ttf
+          weight: 700
+          style: italic
+        - asset: assets/fonts/Poppins-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/Poppins-ExtraBoldItalic.ttf
+          weight: 800
+          style: italic
+        - asset: assets/fonts/Poppins-Black.ttf
+          weight: 900
+        - asset: assets/fonts/Poppins-BlackItalic.ttf
+          weight: 900
+          style: italic
+    - family: Montserrat
+      fonts:
+        - asset: assets/fonts/Montserrat-Thin.ttf
+          weight: 100
+        - asset: assets/fonts/Montserrat-ThinItalic.ttf
+          weight: 100
+          style: italic
+        - asset: assets/fonts/Montserrat-ExtraLight.ttf
+          weight: 200
+        - asset: assets/fonts/Montserrat-ExtraLightItalic.ttf
+          weight: 200
+          style: italic
+        - asset: assets/fonts/Montserrat-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Montserrat-LightItalic.ttf
+          weight: 300
+          style: italic
+        - asset: assets/fonts/Montserrat-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Montserrat-Italic.ttf
+          weight: 400
+          style: italic
+        - asset: assets/fonts/Montserrat-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Montserrat-MediumItalic.ttf
+          weight: 500
+          style: italic
+        - asset: assets/fonts/Montserrat-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Montserrat-SemiBoldItalic.ttf
+          weight: 600
+          style: italic
+        - asset: assets/fonts/Montserrat-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Montserrat-BoldItalic.ttf
+          weight: 700
+          style: italic
+        - asset: assets/fonts/Montserrat-ExtraBold.ttf
+          weight: 800
+        - asset: assets/fonts/Montserrat-ExtraBoldItalic.ttf
+          weight: 800
+          style: italic
+        - asset: assets/fonts/Montserrat-Black.ttf
+          weight: 900
+        - asset: assets/fonts/Montserrat-BlackItalic.ttf
+          weight: 900
+          style: italic
+
+
+flutter_launcher_icons:
+  image_path_android: "assets/app/pivot.money.1024.png"
+  image_path_ios: "assets/app/pivot.money.png"
+  android: true # can specify file name here e.g. "ic_launcher"
+  ios: true # can specify file name here e.g. "My-Launcher-Icon"
+  remove_alpha_ios: true
+
+flutter_native_splash:
+  color: "#000000"
+  image: assets/splash/main.png
+  color_dark: "#000000"
+  image_dark: assets/splash/main.png
+  branding: assets/splash/branding.png
+  branding_bottom_padding: 32
+  branding_dark: assets/splash/branding.png
+  android: true
+  ios: true
+  android_12:
+    color: "#000000"
+    image: assets/splash/main.png
+    color_dark: "#000000"
+    image_dark: assets/splash/main.png
+    branding: assets/splash/branding.png
+    branding_bottom_padding: 32
+    branding_dark: assets/splash/branding.png
+  

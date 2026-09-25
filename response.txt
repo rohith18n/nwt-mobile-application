@@ -1,0 +1,545 @@
+Response /profile/details/ 
+{
+"success": true,
+"onboarding_status": "ucc",
+"data": {
+"id": "d54bdfbd-deb6-4c55-beb0-868f3975b998",
+"name": "DARSHAN KOTIAN",
+"phone_number": "9136247925",
+"pan_number": "JVHPK6199D",
+"dob": "2002-03-15",
+"email": "darshankotiann@gmail.com",
+"investor_residency": "NRI-NRE",
+"ucc_profile": {
+"address": {
+"address1": "Shiv shankar nagar deonar",
+"address2": "Farm road",
+"address3": null,
+"city": "Mumbai Suburban",
+"state": "Maharashtra",
+"pincode": "400088",
+"country": "IND"
+},
+"bank": {
+"account_number": "3748798017",
+"ifsc_code": "KKBK0000960",
+"bank_name": "Unknown",
+"account_type": "SB"
+},
+"bank_acc_num": "3748798017",
+"ifsc_code": "KKBK0000960",
+"bank_acc_type": "SB",
+"primary_tax_status": "NRI-NRE",
+"first_name": "DARSHAN",
+"middle_name": "",
+"last_name": "KOTIAN",
+"pan": "JVHPK6199D",
+"dob": "2002-03-15",
+"gender": "M",
+"phone": "+919136247925",
+"email": "darshankotiann@gmail.com",
+"tax_status": "01",
+"politically_exposed_person": "N",
+"communication_mode": "E",
+"holder_rank": 1,
+"primary_first_name": "DARSHAN",
+"primary_last_name": "KOTIAN",
+"primary_email": "darshankotiann@gmail.com",
+"primary_gender": "M",
+"primary_pep": "N",
+"address_line_1": "Shiv shankar nagar deonar",
+"city": "Mumbai Suburban",
+"state": "Maharashtra",
+"pincode": "400088",
+"country": "CAN",
+"primary_occupation": "01",
+"primary_income_slab": "31",
+"primary_pob": "Mumbai",
+"primary_source_of_wealth": "4",
+"primary_marital_status": "S",
+"primary_father_name": "Shankar Kotian",
+"primary_mother_name": "Sunita Kotian",
+"primary_signature": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAXYAAAF9CAYAAAAQmUOmAAAABHNCSVQICAgIfAhkiAAACsVJREFUeJzt3eFS6sgahtH0qbkvw5VJrox4ZZ4fFu4QAQEh6X6z1p/RvbUGqpzHni+dTvn8/PzsAIhQSin/W/tFAPBcwg4QRtgBwgg7QBhhBwgj7ABhhB0gjLADhBF2gDDCDhBG2AHCCDtAGGEHCCPsAGGEHSCMsAOEEXaAMMIOEEbYAcIIO0AYYQcII+wAYYQdIIywA4QRdoAwwg4QRtgBwgg7QBhhBwgj7ABhhB0gjLADhBF2gDDCDhBG2AHCCDtAGGEHCCPsAGGEHSCMsAOEEXaAMMIOEEbYAcIIO0AYYQcII+wAYYQdIIywA4QRdoAwwg4QRtgBwgg7QBhhBwgj7ABhhB0gjLADhBF2gDDCDhBG2AHCCDtAGGEHCCPsAGGEHSCMsAOEEXaAMMIOEEbYAcIIO0AYYQcII+wAYYQdIIywA4QRdoAwwg4QRtgBwgg7QBhhBwgj7ABhhB0gjLADhBF2gDDCDhBG2AHCCDtAGGEHCCPsAGGEHSCMsAOEEXaAMMIOEEbYAcIIO0AYYQcII+wAYYQdIIywA4QRdoAwwg4QRtgBwgg7QBhhBwgj7ABhhB0gjLADhBF2gDDCDhBG2AHCCDtAGGEHCCPsAGGEHSCMsAOEEXaAMMIOEEbYAcIIO0AYYQcII+wAYYQdIIywA4QRdoAwwg4QRtgBwgg7QBhhBwgj7ABhhB0gjLADhBF2gDDCDhBG2AHCCDtAGGEHCCPsAGGEHSCMsBNtGIaulNKVUrphGNZ+ObAIYSfWMAzdfr///nwcx1VfDyylfH5+fq79IuDZ5lE/8uNOulJKsWInzjiOZ6Pe9/0qrweWJuzEuTRLf39/X/y1wBqEnSjDMJils3lm7EQppXx/vN/vT0YyftTZAjN2oux2u++P+77v3t7eTj6HrRB2IozjeDKCeX9/P5m1m6+zJUYxRNjtdt9h7/u+OxwOJ2MZP+ZshVEMEc6t1qefG8OwNcJO86Yjl77vf4Rc2NkaYadp8+2Nh8Oh67qu+/j4+P6z6UVU2AJhp1nzO0ydCwNfXDylWecumB65cMpWuXhKs85dMJ3+3ZH5Olsk7DTp2gXT6Xxd2NkiYac511br3WzF7sIpW2TGTnOuzdY783U2zoyd5vy2Wp8yhmGrhJ2m/HYzkm2OIOw05J7VemfFzoYJO834bbU+/xoXTtkqYacJ967WOyt2NkzYacItq/VuMmMXdbZM2Knerat1F07hi7BTvVtX61OemMSWCTvVu3W2Pv0FAFsm7FTtntW6w7/gi7BTtekZ69dW66IO/wg71Xpktt4JOzgEjHpND/M6HA5Xgz09GOy3r4VkDgGjWveu1o1i4B9hp0q3ztY7UYcfhJ3q3Ltan369/esg7FTo3jNhpqzYQdipzPT4gFtn686HgVPCTlXuHat4cDX8JOxU497Vetd5cDWcYx871XhkL/pxr/u5h1rDFtnHTlXu3ba49WN6t/7+uUzYqcIje9G3vM2xlNLtdjsnWnKWsFOFRyK91RuTdrvd98dW7Zwj7KzurxdNtxb1v+zzZxuEneZtJW7DMJxE3WFnXCLsrO6RMczWZsvjOJ6cn7Pf70Wdi4SdVT06hrn3e1o3/UW23+83838pPEbYoXLTEUzf96LOr9ygxKoeuSlpSw/VGMfxZBdM+vvl70opRdhZ1fQpSbf+KD7yPa2a/hJzdy23cOcpq3pky+KWtjmKOo8Sdlbz190wybPm+dbG5PfK8xnFsBpjmPPmc3W7YLiHUQyrMYa5TNT5K2FnFcYw502jbmsjjzKKYRXGMD8Nw3Byd6mtjTzCKIZVGMP8NI+6IwP4C2FncdPnlBrDnI962ntkWcLO4h45Qzx1xX7ucC9R56/M2FncvbPy6fa/pBt15tsak94b6zFjZ3EegfdF1HklYWc1Wz6id36evKjzTMLOoqZBe3t7u+vrU1br88fbiTrPJuys5t7Vd8Jq3ePtWIKws5j5WOXZX187NyCxFGGnWkljGDcgsSTbHVnMvU8+Om6LbH3HiBuQWJLtjlTrkZuYaiTqrMGKncXcswJPeK6pqLMGK3YWc88KPGHvuqMCWJOws4jpwV+/hbr1i6bn7ipt8X3QLmFnEdMV+283JrV84JejAqiBsFMVUYe/c/GURdx6omPLF03nRwX4T4s1uHjK4q6FuuWLps5/oSbCzsvduiOm1Yum56Le0i8l8gg7VWh1tS7q1EjYeblbtjq2uFoXdWol7Czq0lbH1nbDzKPuUC9qIuysbrpabyGO8zPV3VVKbYSdl/vt4un072sPpPNfaIGws6j5iryli6aiTiuEnVW1ctFU1GmJO095uUt3nU5vwa/59ntRpyXuPOXlru12aWG1Luq0SNhZxXS23lW6G0bUaZWw83TDMHSllJOTDrtZvKer9Wk8a+FBGbTsv7VfAFmmN+5c2+ZY8xbH+fG7ok5rrNh5qXMP2Kj9hqT56xN1WiPsLG464qgtmo7fJYGws6j5arimFfv8qABRp1Vm7Cym7/uT2XVNq/VzO2Bq+qUD97BiZzG1rtZtaySNO095qvmM+pJafuxEnTTuPGUVtexbF3VSCTuLqyGeok4yF09ZVA2r9XNPPxJ1klixs5i1b/YZx7ErpYg68YSdl5mvztcM6DAMP86uEXVSCTsvM39w9VrbG+fz9K4TdbKZsfMyNZwJcy7qh8Ohmj308ArCzsusfYLj/CJpzU9pgmcyiiHSuZ0vos5WCDtRjmep2/nClhnFEGP+gIyuE3W2yYqdp7rlnJhXsJ0R/hF2nmq622T68cfHx8v+nZd2vog6W2UUw1MdY3785ytX8OeC3lV0ciSsxYqdp3p/f19ktXzppiNRByt2Xmh+5+kzXFqlm6fDP8JOE8Zx7D4+PhwNADfwBCVeqpTy/fEjP2rHYwms0uE2pZRixc5L7ff77ygPw3BTiK/F/Pjngg6XCTuLOYb67e3txyFcwzB04zhe3UVz/H5Rh+uMYni5cxc8+77v+r7/NeZdZ4UO9yilFGFnEZd2s1xidQ6PEXYWNY7j98hl7riCPzemAW4n7KzmuH2xsyqHpxJ2gDCllOJIAYAwwg4QRtgBwgg7QBhhBwgj7ABhhB0gjLADhBF2gDDCDhBG2AHCCDtAGGEHCCPsAGGEHSCMsAOEEXaAMMIOEEbYAcIIO0AYYQcII+wAYYQdIIywA4QRdoAwwg4QRtgBwgg7QBhhBwgj7ABhhB0gjLADhBF2gDDCDhBG2AHCCDtAGGEHCCPsAGGEHSCMsAOEEXaAMMIOEEbYAcIIO0AYYQcII+wAYYQdIIywA4QRdoAwwg4QRtgBwgg7QBhhBwgj7ABhhB0gjLADhBF2gDDCDhBG2AHCCDtAGGEHCCPsAGGEHSCMsAOEEXaAMMIOEEbYAcIIO0AYYQcII+wAYYQdIIywA4QRdoAwwg4QRtgBwgg7QBhhBwgj7ABhhB0gjLADhBF2gDDCDhBG2AHCCDtAGGEHCCPsAGGEHSCMsAOEEXaAMMIOEEbYAcIIO0AYYQcII+wAYYQdIIywA4QRdoAwwg4QRtgBwgg7QBhhBwgj7ABhhB0gjLADhBF2gDDCDhBG2AHCCDtAGGEHCCPsAGGEHSCMsAOEEXaAMMIOEEbYAcIIO0AYYQcII+wAYYQdIIywA4QRdoAwwg4QRtgBwgg7QBhhBwgj7ABh/g/lc58KqWSB3gAAAABJRU5ErkJggg==",
+"pan_source_address": {
+"full_address": "opp amit park, shiv shankar nagar deonar farm road chembur, t.f.donar s.o, mumbai, maharashtra, india, 400088",
+"street": "T.F.Donar S.O",
+"city": "Mumbai",
+"state": "Maharashtra",
+"pincode": 400088,
+"country": "INDIA"
+},
+"pan_address_synced_at": "2026-04-16T14:04:30.032509+00:00",
+"upi_id": "darshankotiann-1@okaxis",
+"address_line_2": "Farm road",
+"ind_address_line_1": "Shiv shankar nagar",
+"ind_city": "Mumbai Suburban",
+"ind_state": "Maharashtra",
+"ind_pincode": "400088",
+"primary_tax_id": "100022",
+"secondary_first_name": "Sunita",
+"secondary_last_name": "Kotian",
+"secondary_pan": "BEPPK1950P",
+"secondary_dob": "1976-08-12",
+"secondary_mobile": "9136247925",
+"secondary_email": "darshankotiann@gmail.com",
+"secondary_gender": "M",
+"secondary_tax_status": "21",
+"secondary_tax_id": "2323",
+"secondary_country": "CAN",
+"secondary_address_line_1": "Canada",
+"secondary_city": "Canada",
+"secondary_state": "Canad",
+"secondary_pincode": "400099",
+"secondary_signature": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAXYAAAF9CAYAAAAQmUOmAAAABHNCSVQICAgIfAhkiAAACmJJREFUeJzt3WFuo8gahlG4mn3FrCxmZSEr8/3TbnmYwgaMTfnlHGmkUXda8Z88Xf1VFbSXy+XSABChbdv2f3t/CAC2JewAYYQdIIywA4QRdoAwwg4QRtgBwgg7QBhhBwgj7ABhhB0gjLADhBF2gDDCDhBG2AHCCDtAGGEHCCPsAGGEHSCMsAOEEXaAMMIOEEbYAcIIO0AYYQcII+wAYYQdIIywA4QRdoAwwg4QRtgBwgg7QBhhBwgj7ABhhB0gjLADhBF2gDDCDhBG2AHCCDtAGGEHCCPsAGGEHSCMsAOEEXaAMMIOEEbYAcIIO0AYYQcII+wAYYQdIIywA4QRdoAwwg4QRtgBwgg7QBhhBwgj7ABhhB0gjLADhBF2gDDCDhBG2AHCCDtAGGEHCCPsAGGEHSCMsAOEEXaAMMIOEEbYAcIIO0AYYQcII+wAYYQdIIywA4QRdoAwwg4QRtgBwgg7QBhhBwgj7ABhhB0gjLADhBF2gDDCDhBG2AHCCDtAGGEHCCPsAGGEHSCMsAOEEXaAMMIOEEbYAcIIO0AYYQcII+wAYYQdIIywA4QRdoAwwg4QRtgBwgg7QBhhBwgj7ABhhB0gjLADhBF2gDDCDhBG2AHCCDtAGGEHCCPsAGGEHSCMsAOEEXaAMMIOEEbYAcIIO0AYYQcII+wAYYQdIIywA4QRdoAwwg4QRtgBwgg7QBhhBwgj7ABhhB0gjLADhBF2eIO+75u2bZuu6/b+KByAsMOL9X3fnM/npmmaZhiGpu/7vT8S4YQdXuwadXgXYYcXGoZh1q/BltrL5XLZ+0NAqq7riiH3Y8ertG3bWrHDiwzDUIz66XTa5fNwHMIOL2KTlL0IO7zA1God3kHY4QWs1tmTsMPGHq3Wzdh5NWGHjf3+/u79ETg4YYeNjS8kWaHzbsIOGxqPYEpR//r6euMn4oiEHTY03jT9/v52Ooa3E3bYyHjT9HQ6GcOwC48UgI2MHx/w8/PTnE6npm3bf32dHzleySMFYEOl+fqcmTtsTdhhAwJOTYQdNlDaNC39uuDzDsIOT1qyaeqoI+8g7PCkqdV6iRU77+BUDDzp3qkXJ2J4N6di4En3Nk1tqLIXYYcnGMNQI2GHlR5tmo6f8mjjlHcRdljp0cs0jGLYi7DDCqWXaYzHMOPVPLyLsMMfS95TWrp4dG/jFN5J2OHPA7yu/815X+nSMcu9TVXYmrBzeOOV+vgNSGOl8I83Rr3Mmj0JO4e39B2lpdX6vRW757LzbsIOC8zZNG3M2NmZsMMCjzZNG8ccqYCww0yl1Xop2i4msTdhh5lKG6JzxjBW7LybsMNMgs2nEHaYobQZOnU23Y1T9ibsUDAO+ZxN09KfE3b2IOzwwNxN0xIbp+xB2KHg9mTLnJumU19rxc4ehB0eWHrT9PbrYA/CDgXXmC+9QerGKTUQdii4Bnru2fWmEHVPdGQvwg4TpjZN545YjGLYi7DDhK7r/vNr92J9u7oXdfYk7LDAveOL5uvUQthhpntjGPN1aiLsMNOSWBvFsCdhhxkebZqar1MTYYcZlsRa2NmbsMMMj575cjtj93wY9ibs8MCjMYwnOlIbYYcHHm2a3j4wTNSpgbDDHXNumjq/Tm2EHe6Yc8TRG5OojbDDHUtDbeOUGgg7TJgTdRun1EjYYYLHAvCphJ3Dm9r8nLP6duOUGgk7h1cK+5pICzu1EHYO7dmjim6cUiNh59BuLxct5fw6tRJ2KFizcWoUQy3+2fsDwJ6+v7+br6+vpu/7ZhiG5nw+N41I8+GEncNb8oLqW54RQ62MYmAlM3ZqJeywAZeZqImww0pHXLFf9yKom7DDBo4wY+/7vjmfz03Xdf+6cUt9hB1WONqjeq9Rv7Jqr5tTMcBdXdf9J+T2FOpmxQ4rPHNj9ZOUov7z83OIf6V8MmGHFY4wihH1zyXs8KR3Pvyr7/umbdum67qXfh9R/2zCDivssXnYdd3fDcxhGF52MkXUP5+wwwconR9/xV8uop6hvVwul70/BHyatm3//v+rf4RKsX3F9xb1DG3btlbssNA7xzD3ov7q7yPqn0vYYaF3xG4YhqZt24dR3yL6pTGPqH82YYeFXr2C7vu+eOrlFaG93ZC9Op/Pov7h3DyFioyv7l/dnoa59UyAb/cJbr+PW6Wfz4odnrDlyra0em6a7WM7DEPxXwSinsOKHRba+nECU6v0ZjTr3mIEJOrHIOywo3ujl3Fonx3DTF1qslGaR9hhB/dW6XOi3ix8wuLUSl3UM5mxwxPWjEeWRr2ZGP8sCbKV+rFYscNCax/6tSboV8+MYUqXjxxpzCbs8ELDMDS/v7+TQW+aeRuXa8M+FXUbpdmEHZ7U9/3fUF5D3jTN3Zhff39OYEvjnjn/aijdKBX1Y/AQMFihdLlnrqVxLW18PvqxLY19RP0YPAQMVnq0Gp/6M5fLZXFcxxufj8YwpaifTidRPxCjGFjhGsk545bmiZc/D8Ow6EXSU1H/+flZ9f35TEYx8IRrdK+r6tPp1Hx9fW124mTJGKb0tcYvx9O2bSvsULHxqZap1beocyXsULnxJu3UpaK5fwGQz+YpVKx0zLEU9dKxRiv1YxN2qNT4MQKlqA/DUNwsdav02IQdKvXotmlprm4EQyPsUK9x2Me3TUsP9jKCoRF2qNOj+boHe3GPsMMHuA12abPUzVJuCTtUaOoxAqXN0ubPMUi4Enb4ANf5+tRbkOCWsEOFSqOWqZdQm6szJuxQmVLUSw8DM1dnirBDZUrvN3W0kSWEHSpTOuroaCNLeAgYVObR25ncLuUeDwGDypRW62NGMDwi7PBBjGCYwygGKlJ6VMCVEQxzGMXABxF15hJ2qMjUal3UWULYoSKl+fnU6/BgirBDRcYBF3XWsHkKlbmOYwSdNdq2bYUdIIhTMQCBhB0gjLADhBF2gDDCDhBG2AHCCDtAGGEHCCPsAGGEHSCMsAOEEXaAMMIOEEbYAcIIO0AYYQcII+wAYYQdIIywA4QRdoAwwg4QRtgBwgg7QBhhBwgj7ABhhB0gjLADhBF2gDDCDhBG2AHCCDtAGGEHCCPsAGGEHSCMsAOEEXaAMMIOEEbYAcIIO0AYYQcII+wAYYQdIIywA4QRdoAwwg4QRtgBwgg7QBhhBwgj7ABhhB0gjLADhBF2gDDCDhBG2AHCCDtAGGEHCCPsAGGEHSCMsAOEEXaAMMIOEEbYAcIIO0AYYQcII+wAYYQdIIywA4QRdoAwwg4QRtgBwgg7QBhhBwgj7ABhhB0gjLADhBF2gDDCDhBG2AHCCDtAGGEHCCPsAGGEHSCMsAOEEXaAMMIOEEbYAcIIO0AYYQcII+wAYYQdIIywA4QRdoAwwg4QRtgBwgg7QBhhBwgj7ABhhB0gjLADhBF2gDDCDhBG2AHCCDtAGGEHCCPsAGGEHSCMsAOEEXaAMMIOEEbYAcIIO0AYYQcII+wAYYQdIIywA4QRdoAwwg4QRtgBwgg7QBhhBwgj7ABhhB0gjLADhBF2gDDCDhBG2AHCCDtAGGEHCCPsAGGEHSCMsAOE+T++DGIhA72JwAAAAABJRU5ErkJggg=="
+},
+"default_bank": {
+"id": 10,
+"account_number": "3748798017",
+"ifsc_code": "KKBK0000960",
+"bank_name": "KOTAK MAHINDRA BANK",
+"account_type": "SB",
+"upi_id": "darshankotiann-1@okaxis",
+"is_default": true
+},
+"created_at": "2026-04-04T14:02:03.496584+00:00",
+"updated_at": "2026-04-16T14:04:37.260990+00:00",
+"kyc": {
+"id": 51,
+"vendor": "CASHFREE",
+"verification_type": "PAN_ADVANCE",
+"status": "VALID",
+"pan_number": "JVHPK6199D",
+"name_provided": "Darshan Shankar Kotian",
+"name_at_source": "Darshan Shankar Kotian",
+"dob_provided": "2002-03-15",
+"dob_at_source": "15-03-2002",
+"father_name": null,
+"is_name_matched": true,
+"is_dob_matched": true,
+"masked_aadhaar": "XXXXXXXX2408",
+"aadhaar_linked": true,
+"address": {
+"full_address": "",
+"street": "",
+"city": "",
+"state": "",
+"pincode": 0,
+"country": "India"
+},
+"address_display": "India",
+"email": "",
+"mobile": null,
+"gender": "Male",
+"verification_id": "pan_532dbbbb68b6",
+"reference_id": "165267274",
+"created_at": "2026-04-15T10:29:10.084720+00:00",
+"raw_response": {
+"reference_id": 165267274,
+"verification_id": "pan_532dbbbb68b6",
+"status": "VALID",
+"message": "PAN verified successfully",
+"name_provided": "Darshan Shankar Kotian",
+"pan": "JVHPK6199D",
+"registered_name": "DARSHAN SHANKAR KOTIAN",
+"name_pan_card": "DARSHAN SHANKAR KOTIAN",
+"first_name": "DARSHAN",
+"last_name": "SHANKAR KOTIAN",
+"type": "Individual or Person",
+"gender": "Male",
+"date_of_birth": "15-03-2002",
+"masked_aadhaar_number": "XXXXXXXX2408",
+"email": "",
+"mobile_number": "",
+"aadhaar_linked": true,
+"address": {
+"full_address": "",
+"street": "",
+"city": "",
+"state": "",
+"pincode": 0,
+"country": "India"
+}
+}
+},
+"kyc_done": true,
+"needs_kyc_verification": false,
+"kyc_name_mismatch": false,
+"name_suggested_from_pan": "Darshan Shankar Kotian",
+"ucc_accounts": [
+{
+"client_code": "PIVOT000071",
+"bse_status": "ACTIVE",
+"tax_status": "Individual",
+"email": "darshankotiann@gmail.com",
+"mobile_number": "9136247925"
+},
+{
+"client_code": "PM000003",
+"bse_status": "INACTIVE",
+"tax_status": "Individual",
+"email": "darshan.k@networthtracker.in",
+"mobile_number": "9136247925"
+},
+{
+"client_code": "PM_SI_818B",
+"bse_status": "PENDING_OTP",
+"tax_status": "Resident",
+"email": "darshankotiann@gmail.com",
+"mobile_number": "9136247925"
+},
+{
+"client_code": "PM_SI_1621",
+"bse_status": "ACTIVE",
+"tax_status": "Individual",
+"email": "darshankotiann@gmail.com",
+"mobile_number": "9136247925"
+},
+{
+"client_code": "PM_SI_0680",
+"bse_status": "PENDING_OTP",
+"tax_status": "Resident",
+"email": "darshankotiann@gmail.com",
+"mobile_number": "9136247925"
+},
+{
+"client_code": "PM_SI_E789",
+"bse_status": "PENDING_OTP",
+"tax_status": "Resident",
+"email": "darshankotiann@gmail.com",
+"mobile_number": "9136247925"
+},
+{
+"client_code": "PM_SI_5DC0",
+"bse_status": "PENDING_OTP",
+"tax_status": "Resident",
+"email": "darshankotiann@gmail.com",
+"mobile_number": "9136247925"
+},
+{
+"client_code": "PM_SI_992B",
+"bse_status": "PENDING_OTP",
+"tax_status": "Resident",
+"email": "darshankotiann@gmail.com",
+"mobile_number": "9136247925"
+},
+{
+"client_code": "PM_SI_4DBF",
+"bse_status": "PENDING_OTP",
+"tax_status": "Resident",
+"email": "darshankotiann@gmail.com",
+"mobile_number": "9136247925"
+},
+{
+"client_code": "PM_SI_51BC",
+"bse_status": "PENDING_OTP",
+"tax_status": "Resident",
+"email": "darshankotiann@gmail.com",
+"mobile_number": "9136247925"
+},
+{
+"client_code": "PM_SI_E08D",
+"bse_status": "PENDING_OTP",
+"tax_status": "Resident",
+"email": "darshankotiann@gmail.com",
+"mobile_number": "9136247925"
+},
+{
+"client_code": "PM_SI_1284",
+"bse_status": "PENDING_OTP",
+"tax_status": "Resident",
+"email": "darshankotiann@gmail.com",
+"mobile_number": "9136247925"
+},
+{
+"client_code": "PM_SI_13C5",
+"bse_status": "ACTIVE",
+"tax_status": "Individual",
+"email": "darshankotiann@gmail.com",
+"mobile_number": "9136247925"
+},
+{
+"client_code": "PM_SI_8398",
+"bse_status": "ACTIVE",
+"tax_status": "Individual",
+"email": "darshankotiann@gmail.com",
+"mobile_number": "9136247925"
+},
+{
+"client_code": "PM_SI_3393",
+"bse_status": "ACTIVE",
+"tax_status": "Individual",
+"email": "darshankotiann@gmail.com",
+"mobile_number": "9136247925"
+},
+{
+"client_code": "PM_SI_953F",
+"bse_status": "ACTIVE",
+"tax_status": "Individual",
+"email": "darshankotiann@gmail.com",
+"mobile_number": "9136247925"
+},
+{
+"client_code": "PM_SI_BAE4",
+"bse_status": "PENDING_OTP",
+"tax_status": "Resident",
+"email": "darshankotiann@gmail.com",
+"mobile_number": "9136247925"
+},
+{
+"client_code": "PM_SI_D6A5",
+"bse_status": "ACTIVE",
+"tax_status": "Individual",
+"email": "darshankotiann@gmail.com",
+"mobile_number": "9136247925"
+},
+{
+"client_code": "PM_SI_7BFA",
+"bse_status": "PENDING_OTP",
+"tax_status": "NRI-NRE",
+"email": "darshankotiann@gmail.com",
+"mobile_number": "9136247925"
+}
+],
+"onboarding_status": "ucc",
+"profile_issues": [],
+"identity_verified": true,
+"profile_complete": true,
+"profile_requirements": {
+"investor_residency": "NRI-NRE",
+"sections": [
+{
+"id": "investor_type",
+"title": "Investor type",
+"note": "Maps to tax status on the account.",
+"required": [
+{
+"key": "investor_residency",
+"in": "user",
+"label": "Investor residency",
+"allowed": [
+"Resident",
+"NRI-NRE",
+"NRI-NRO"
+]
+}
+],
+"optional": []
+},
+{
+"id": "account",
+"title": "Account (stored on user)",
+"note": "Phone, DOB, and PAN live on the user row; the rest are in extended_profile.",
+"required": [
+{
+"key": "phone_number",
+"in": "user",
+"label": "Phone"
+},
+{
+"key": "dob",
+"in": "user",
+"label": "Date of birth",
+"note": "YYYY-MM-DD on API"
+},
+{
+"key": "pan_number",
+"in": "user",
+"label": "PAN"
+},
+{
+"key": "primary_first_name",
+"in": "extended_profile",
+"label": "First name"
+},
+{
+"key": "primary_last_name",
+"in": "extended_profile",
+"label": "Last name"
+},
+{
+"key": "primary_email",
+"in": "extended_profile",
+"label": "Email",
+"note": "Also updates the account email when saved."
+},
+{
+"key": "primary_tax_id",
+"in": "extended_profile",
+"label": "Foreign tax ID (TIN)"
+}
+],
+"optional": [
+{
+"key": "primary_middle_name",
+"in": "extended_profile",
+"label": "Middle name"
+},
+{
+"key": "primary_mobile",
+"in": "extended_profile",
+"label": "Mobile"
+},
+{
+"key": "primary_gender",
+"in": "extended_profile",
+"label": "Gender",
+"note": "M / F / O"
+},
+{
+"key": "primary_occupation",
+"in": "extended_profile",
+"label": "Occupation code",
+"note": "e.g. 01–08"
+},
+{
+"key": "primary_income_slab",
+"in": "extended_profile",
+"label": "Income slab",
+"note": "e.g. 31–35"
+},
+{
+"key": "primary_pob",
+"in": "extended_profile",
+"label": "Place of birth"
+},
+{
+"key": "primary_pep",
+"in": "extended_profile",
+"label": "PEP",
+"note": "N / Y / R"
+}
+]
+},
+{
+"id": "correspondence",
+"title": "Correspondence address",
+"note": "For NRI, this block is the overseas address (non-IND country).",
+"required": [
+{
+"key": "country",
+"in": "extended_profile",
+"label": "Country",
+"note": "Must not be IND; overseas correspondence address."
+},
+{
+"key": "address_line_1",
+"in": "extended_profile",
+"label": "Address line 1"
+},
+{
+"key": "city",
+"in": "extended_profile",
+"label": "City"
+},
+{
+"key": "state",
+"in": "extended_profile",
+"label": "State / region"
+},
+{
+"key": "pincode",
+"in": "extended_profile",
+"label": "Postal code"
+}
+],
+"optional": [
+{
+"key": "address_line_2",
+"in": "extended_profile",
+"label": "Address line 2"
+},
+{
+"key": "address_line_3",
+"in": "extended_profile",
+"label": "Address line 3"
+}
+]
+},
+{
+"id": "indian_address_nri",
+"title": "Indian address (optional for NRI)",
+"note": "Not required for profile completion.",
+"required": [],
+"optional": [
+{
+"key": "ind_address_line_1",
+"in": "extended_profile",
+"label": "Indian address line 1"
+},
+{
+"key": "ind_city",
+"in": "extended_profile",
+"label": "Indian city"
+},
+{
+"key": "ind_state",
+"in": "extended_profile",
+"label": "Indian state"
+},
+{
+"key": "ind_pincode",
+"in": "extended_profile",
+"label": "Indian PIN code"
+}
+]
+},
+{
+"id": "bank",
+"title": "Bank (default)",
+"note": "Prefer POST /api/v1/profile/bank_details/; else bank_acc_num, ifsc_code, bank_acc_type in extended_profile.",
+"required": [
+{
+"key": "bank",
+"in": "bank_details_api_or_extended_profile",
+"label": "Account number, IFSC, account type",
+"note": "SB / CB / NE / NO"
+}
+],
+"optional": []
+},
+{
+"id": "signatures",
+"title": "Digital signatures",
+"note": "PNG data URL in extended_profile; used for agreement PDFs.",
+"required": [
+{
+"key": "primary_signature",
+"in": "extended_profile",
+"label": "Primary holder signature"
+}
+],
+"optional": [
+{
+"key": "secondary_signature",
+"in": "extended_profile",
+"label": "Second holder signature",
+"note": "Joint / Anyone or Survivor only."
+}
+]
+}
+],
+"optional_field_keys": [
+"primary_middle_name",
+"primary_mobile",
+"primary_gender",
+"primary_occupation",
+"primary_income_slab",
+"primary_pob",
+"primary_pep",
+"address_line_2",
+"address_line_3",
+"secondary_signature",
+"ind_address_line_1",
+"ind_city",
+"ind_state",
+"ind_pincode",
+"country"
+],
+"notes": [
+"Required vs optional here matches what blocks profile completion (see profile_issues).",
+"If you omit an optional field on details_update, the previous saved value is kept.",
+"NRI-NRE and NRI-NRO use the same rules: overseas correspondence + foreign TIN."
+]
+}
+}
+}
